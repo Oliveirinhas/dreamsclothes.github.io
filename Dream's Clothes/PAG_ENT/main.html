@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/log_ico.png" type="image/jpg">
+
+    <title>Dream's Clothes</title>
+
+</head>
+
+<body>
+    
+<header>
+    <a class="logo" href="/DC/PAG_PRI/main.html">
+        <p>Dream's Clothes</p><img src="img/log_ico.png" alt="">
+    </a>
+</header>
+
+<main>
+    
+    <form action="" id="dados_pessoais">
+        <div class="tit_img">
+            <img src="img_tit/inf_ico.png" alt="">
+            <h3>Informações Pessoais</h3>
+            </div>
+
+        <label for="email">E-mail (seu@email.com)</label>
+        <input type="email" name="" id="email" placeholder="Informe o e-mail" required><br>
+
+        <label for="nome_com">Nome Completo ( Fábio de Oliveira Júnior )</label>
+        <input type="text" name="" id="nome_com" placeholder="Informe o nome completo" pattern="[A-Za-z]+ [A-Za-z]+"  required><br>
+
+        <label for="CPF">CPF ( 123.456.789-10 )</label>
+        <input type="text" name="" id="CPF" placeholder="Informe o CPF" maxlength="14" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" required><br>
+
+        <label for="data_nas">Data  de Nascimento ( 02/04/2003 )</label>
+        <input type="date" name="" id="data_nas" required><br>
+
+        <label for="telefone">Telefone celular ou fixo ((34)99999-9999)</label>
+        <input type="text" name="" id="telefone" placeholder="Informe o telefone" pattern="\(\d{2}\) \d{5}-\d{4}" required><br>
+
+        <button type="submit"> Salvar Dados</button>
+    </form>
+
+    <form action="" id="endereco_entrega">
+        <div class="tit_img">
+        <img src="img_tit/cas_ico.png" alt="">
+        <h3>Endereço de entrega</h3>
+        </div>
+
+        <label for="CEP">CEP ( 00000-000 )</label>
+        <input type="text" name="" id="CEP" placeholder="Informe o CEP" pattern="\d{5}-\d{3}" required><br>
+
+        <label for="endereco">Endereço</label>
+        <input type="text" name="" id="endereco" placeholder="Informe o endereço" pattern="[A-Za-z]+ [A-Za-z]+" required><br>
+
+        <label for="numero_end">Número (2345, F16, 22B)</label>
+        <input type="text" name="" id="numero_end" placeholder="Informe o número"required><br>
+
+        <label for="endereco">Cidade (Uberlândia - MG)</label>
+        <input type="text" name="" id="endereco" placeholder="Informe o endereço" pattern="[A-Za-z]+-[A-Z]{2}$"required><br>
+
+        <label for="comp">Complemento (opcional)</label>
+        <input type="text" name="" id="comp" placeholder="Informe o complemento"><br>
+
+        
+        <button type="submit"> Salvar Endereço</button>
+        
+    </form>
+
+    <form action="" id="forma_pagamento">
+
+        <div class="tit_img">
+            <img src="img_tit/car_ico.png" alt="">
+            <h3>Forma de Pagamento</h3>
+            </div>
+            <p>Selecione uma forma de pagamento para finalizar seu pedido:</p>
+
+        <div class="group_input_pag">
+
+            
+            <input type="radio" name="forma_pag" id="cartao_credito" >
+            <label for="cartao_credito">
+                 <img src="img_tit/car_cre_ico.png" alt="">
+                Cartão de Crédito
+            </label>
+            
+        <input type="radio" name="forma_pag" id="cartao_debito" >
+        <label for="cartao_debito">
+            <img src="img_tit/car_deb_ico.png" alt="">
+             Cartão de Débito
+            </label>
+
+        <input type="radio" name="forma_pag" id="boleto" >
+        <label for="boleto">
+            <img src="img_tit/bol_ico.png" alt="">
+            Boleto
+        </label>
+ 
+
+        <input type="radio" name="forma_pag" id="pix">
+        <label for="pix">
+            <img src="img_tit/pix_ico.png" alt="">
+            Pix
+        </label>
+  
+
+    </div>
+
+    <button type="submit">Finalizar Pedido</button>
+    </form>
+
+</main>
+
+<section class="informacoes">
+    <div class="inf">
+        <img src="img/rai_inf.png" alt="">
+        <div class="inf_text">
+        <h4>ENTREGA RÁPIDA</h4>
+        <p>Envio em até 7 dias</p>
+    </div>
+    </div>
+    <div class="inf">
+        <img src="img/rel_inf.png" alt="">
+        <div class="inf_text">
+            <h4>ATENDIMENTO</h4>
+            <p>Segunda à sexta das 8h00 às 16h00</p>
+        </div>
+    </div>
+    <div class="inf">
+        <img src="img/cam_inf.png" alt="">
+        <div class="inf_text">
+            <h4>ENTREGA RÁPIDA</h4>
+            <p>Envio em até 7 dias</p>
+        </div>
+    </div>
+</section>
+
+<aside class="whats">
+    <img src="img/wha_ico.png" alt="">
+    <a href=""><b>Fale Conosco</b></a>
+</aside>
+
+<footer>
+    <p id="atend">Acesse nossas redes socias:</p>
+    <aside class="contato" id="pe">
+        <a href="https://abrir.link/PCCbv">
+        <div class="redes_sociais" id="rede_wha">
+            <img src="img/wha_ico.png" alt="">
+        </div>
+    </a>
+    <a href="https://www.instagram.com/">
+        <div class="redes_sociais" id="rede_ins">
+            <img src="img/ins_ico.png" alt="">
+        </div>
+    </a>
+    <a href="https://web.facebook.com/?_rdc=1&_rdr">
+        <div class="redes_sociais" id="rede_fac">
+            <img src="img/fac_ico.png" alt="">
+        </div>
+    </a>
+    <a href="https://br.linkedin.com/">
+        <div class="redes_sociais" id="red_lin">
+            <img src="img/lin_ico.png" alt="">
+        </div>
+    </a>
+    <a href="https://github.com/Oliveirinhas">
+        <div class="redes_sociais" id="rede_git">
+            <img src="img/git_ico.png" alt="">
+        </div>
+    </a>
+    </aside>
+    <aside class="direitos_aut">
+        <b>© 2024 Dream's Clothes.</b>
+        <p> Todos os direitos reservados.</p>
+    </aside>
+
+</footer>
